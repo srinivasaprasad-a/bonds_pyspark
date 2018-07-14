@@ -89,7 +89,7 @@ Based on the table you created above, aggregate PV of periodic payments and find
 	|    kn7|     4|    8333.33333|             2636.71875|     0.00000|
 	|    kn7|     5|    8333.33333|             7910.15625| 25000.00000|
 	+-------+------+--------------+-----------------------+------------+
-###### Bond Price Table
+###### Quote Table
 
 	+-------+------------+------+-------+
 	|Bond ID|           A|    FV|  Quote|
