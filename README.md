@@ -1,15 +1,22 @@
 # Bonds
 
 ### Problem Statement
+
 Got 4 bonds in JSON file "bonds.json". Each bonds has 6 fields: 
-	ID
-	Value – Face Value (Par Value or Value at Maturity)
-	Coupon(%) – amount of periodic payment (C = Value * Coupon(%)) *stated in yearly basis
-	Yield(%) – interest rate set by the market (assume it is flat across the lifetime)
-	Duration – the number of years in security lifetime
-	Type – type of periodic payments (A – Annual 1 payment per year | S – Semi-Annual 2 payments a year | Q – Quarterly 4 payments per year | M – Monthly 12 payments)
+
+ID
+
+Value – Face Value (Par Value or Value at Maturity)
+
+Coupon(%) – amount of periodic payment (C = Value * Coupon(%)) *stated in yearly basis
+
+Yield(%) – interest rate set by the market (assume it is flat across the lifetime)
+
+Duration – the number of years in security lifetime
+
+Type – type of periodic payments (A – Annual 1 payment per year | S – Semi-Annual 2 payments a year | Q – Quarterly 4 payments per year | M – Monthly 12 payments)
 	
-Bond Price Formula: A=[∑_(period i)^(# of Periods)▒C/(1+yield)^(period i)   ]+  Value/〖(1+yield)〗^(period N) 
+	Bond Price Formula: A=[∑_(period i)^(# of Periods)▒C/(1+yield)^(period i)   ]+  Value/〖(1+yield)〗^(period N) 
 
 ##### Problem 1: 
 Using Bond Price Formula and inputs from the file, create a periodic table for that will contain the information for every bond.
